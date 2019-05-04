@@ -17,5 +17,5 @@ An development environment for Mapbox GL based vector tiles.
 2. Run following command.
 
 ```
-bash bin/setup.sh
+curl https://raw.githubusercontent.com/tilecloud/planet-factory/master/bin/setup.sh | source -
 ```
