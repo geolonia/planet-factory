@@ -13,7 +13,7 @@ An development environment for Mapbox GL based vector tiles.
 
 ## How to use
 
-1. Launch Ubuntu 18.04 based server.
+1. Launch a new Ubuntu 18.04 based server.
 2. Run following command.
 
 ```
