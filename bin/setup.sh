@@ -39,5 +39,5 @@ export PATH="${HOME}/.node/bin:${HOME}/.local/bin:${HOME}/.npm-packages/bin:$PAT
 EOL
 
 npm install -g n
-/home/vagrant/.npm-packages/bin/n lts
-/home/vagrant/.node/bin/npm install -g tileserver-gl
+${HOME}/.npm-packages/bin/n lts
+${HOME}/.node/bin/npm install -g tileserver-gl
