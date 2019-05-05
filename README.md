@@ -36,7 +36,7 @@ $ vagrant up
 
 ### Docker
 
-
+Please wait. :)
 
 ## Example workflow to develop vector tile
 
