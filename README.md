@@ -1,6 +1,6 @@
 # Planet Factory
 
-An development environment for Mapbox GL based vector tiles.
+A development environment for Mapbox GL based vector tiles.
 
 ## What's installed
 
