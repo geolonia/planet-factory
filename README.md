@@ -42,7 +42,7 @@ Please wait. :)
 
 Place a shell script as follows and run it.
 
-```
+```bash
 #!/usr/bin/env bash
 
 set -ex
