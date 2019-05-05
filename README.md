@@ -16,6 +16,6 @@ An development environment for Mapbox GL based vector tiles.
 1. Launch a new Ubuntu 18.04 based server.
 2. Run following command.
 
-```
-curl https://raw.githubusercontent.com/tilecloud/planet-factory/master/bin/setup.sh | bash
+```bash
+$ curl https://raw.githubusercontent.com/tilecloud/planet-factory/master/bin/setup.sh | bash
 ```
