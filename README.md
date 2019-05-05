@@ -55,7 +55,7 @@ unzip -d $TMPDIR $TMPFILE
 
 find $TMPDIR -name "*.shp" -exec ogr2ogr -f GeoJSON {}.geojson {} \;
 
-tippecanoe -Z0 -z2 --extend-zooms-if-still-dropping --coalesce-densest-as-needed -l water -o water.mbtiles $TMPDIR/ne_110m_ocean.shp.geojson $TMPDIR/ne_110m_lakes.shp.geojson --force
+tippecanoe --extend-zooms-if-still-dropping --coalesce-densest-as-needed -l water -o water.mbtiles $TMPDIR/ne_110m_ocean.shp.geojson $TMPDIR/ne_110m_lakes.shp.geojson --force
 ```
 
 Then run `tileserver-gl water.mbtiles` and open `http://<ip-address>:8080/`.
