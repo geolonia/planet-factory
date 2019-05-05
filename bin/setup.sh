@@ -10,7 +10,7 @@ sudo sh -c 'echo 127.0.1.1 $(hostname) >> /etc/hosts'
 sudo add-apt-repository ppa:ubuntugis/ppa -y && sudo apt-get update -y
 sudo apt-get install -y osmium-tool docker-compose rename python3-pip \
 make gcc g++ libsqlite3-dev python3.6-dev gdal-bin nodejs npm libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev \
-build-essential unzip jq libgles2 libegl1 -y
+build-essential unzip jq libgles2 libegl1 moreutils -y
 
 cd $HOME
 
