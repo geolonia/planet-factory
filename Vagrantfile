@@ -21,4 +21,6 @@ Vagrant.configure("2") do |config|
     vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
     vb.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
   end
+
+  config.vm.provision :shell, :privileged => false, :path => File.join( File.dirname(__FILE__), 'bin', 'setup.sh' )
 end
