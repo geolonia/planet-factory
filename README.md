@@ -11,6 +11,11 @@ An development environment for Mapbox GL based vector tiles.
 * mb-util
 * tileserver-gl
 
+## Requires
+
+* Ubuntu 18.04
+ * Memory 4GB+
+
 ## How to use
 
 1. Launch a new Ubuntu 18.04 based server.
